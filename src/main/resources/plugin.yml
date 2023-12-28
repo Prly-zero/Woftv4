@@ -1,0 +1,48 @@
+name: Woftv4
+version: '${project.version}'
+main: club.windofall.woftv4.Woftv4
+api-version: '1.20'
+commands:
+  cml:
+    description: 更改直播间聊天同步等级
+    usage: /cml [None|Msg]
+    permission: woftv4.cml
+  anchor:
+    description: 传送至指定公共锚点
+    usage: /anchor 锚点名称
+    permission: woftv4.anchor
+  setanchor:
+    description: 设置一个公共锚点
+    usage: /setanchor 锚点名称
+    permission: woftv4.setanchor
+  rmanchor:
+    description: 移除一个公共锚点
+    usage: /rmanchor 锚点名称
+    permission: woftv4.rmanchor
+  imhere:
+    description: 显示自己当前的位置
+    usage: /imhere
+    permission: woftv4.imhere
+  tpw:
+    description: UNKN
+    usage: /tpw
+    permission: woftv4.tpw
+  ping:
+    description: 查看当前连接延迟
+    usage: /ping
+    permission: woftv4.ping
+  track:
+    description: 绑定一个追踪器
+    usage: /track <Player> [true|false]
+    permission: woftv4.track
+  egy:
+    description: 追加一个紧急避险
+    usage: /egy <anchor>
+    permission: woftv4.egy
+  apobow:
+    description: 创建特殊弓
+    usage: /apobow explode [int:最大距离] [int:爆炸间隔] [float:爆炸强度] [boolean:是否生成热量] [boolean:是否地质更改]
+    permission: woftv4.apobow
+  test:
+    description: test
+    usage: /test
