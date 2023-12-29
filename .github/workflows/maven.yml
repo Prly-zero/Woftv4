@@ -26,7 +26,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Build and package
-        run: mvn package shade:shade
+        run: mvn clean package
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with: 
