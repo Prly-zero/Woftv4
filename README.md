@@ -1,9 +1,9 @@
 # Woftv4
 [![Package](https://github.com/Prly-zero/Woftv4/actions/workflows/maven.yml/badge.svg)](https://github.com/Prly-zero/Woftv4/actions/workflows/maven.yml)
 ### 适用说明
-BukkitMC/SpigotMC/PaperMC适用
-建议环境：JAVA17及以上
-建议版本：1.16及以上
+    BukkitMC/SpigotMC/PaperMC适用
+    建议环境：JAVA17及以上
+    建议版本：1.16及以上
 ### 使用方法
     1.获取插件
         a)在`Actions'中获取最新构建的构件（应为一zip压缩包）
